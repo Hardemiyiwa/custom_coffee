@@ -1,0 +1,83 @@
+/* General styling */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    user-zoom: none;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --litcolor:#ffffff;
+    --blkcolor:#000000;
+    --altcolor:#f57328;
+    --hdfont:font-family: 'Abyssinica SIL', serif;
+    --tltfont:font-family: 'Noto Sans JP', sans-serif;
+    --jpfont:font-family: 'Oswald', sans-serif;
+}
+.hero-text{
+    font-family: var(--hdfont);
+    font-size: 4.1em;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+p{
+   font-family: var(--jpfont);
+   text-align: justify;
+   margin: 20px 0px;
+}
+.px{
+    padding: 0px 100px;
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    background-color: var(--altcolor);
+    padding: 5px 20px;
+    color: var(--litcolor);
+}
+.btn1:hover{
+    background: none;
+    color: var(--altcolor);
+    border: 2px solid var(--altcolor);
+    padding: 5px 20px;
+}
+/* navbar styling */
+nav{
+    background-color: var(--litcolor);
+    width: auto;
+    height: 10vh;
+}
+#brand{
+    font-family: var(--hdfont);
+    font-weight: 700;
+    color: var(--blkcolor);
+}
+nav li{
+    margin: 0px 20px;
+}
+nav a{
+    color: var(--blkcolor);
+    font-family: var(--tltfont);
+}
+nav div a{
+    margin: 0px 20px;
+}
+/* main styling */
+main{
+    background-color: var(--litcolor);
+    width: auto;
+    height: 90vh;
+}
+.main-box{
+    width: 50%;
+    height: 60vh;
+}
+.main-box img{
+    display: block;
+    margin: 0px auto;
+}
