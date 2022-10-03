@@ -12,6 +12,7 @@
     --litcolor:#ffffff;
     --blkcolor:#000000;
     --altcolor:#f57328;
+    --libcolor:aliceblue;
     --hdfont:font-family: 'Abyssinica SIL', serif;
     --tltfont:font-family: 'Noto Sans JP', sans-serif;
     --jpfont:font-family: 'Oswald', sans-serif;
@@ -22,10 +23,25 @@
     font-weight: 700;
     letter-spacing: 5px;
 }
+.bg{
+    background-color: var(--libcolor);
+}
 p{
    font-family: var(--jpfont);
    text-align: justify;
    margin: 20px 0px;
+}
+.sub{
+    font-family: var(--hdfont);
+    font-size: 1.5em;
+    color: var(--altcolor);
+    font-weight: 700;
+}
+.tittle-text{
+    font-family: var(--tltfont);
+    font-weight: 700;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
 }
 .px{
     padding: 0px 100px;
@@ -34,6 +50,37 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.mg{
+    margin-top: 3em;
+}
+.mgc{
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.small{
+    font-family: var(--tltfont);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.small2{
+    font-family: var(--jpfont);
+    font-weight: 700;
+    font-size: 1em;
+    margin: 0.4em ;
+}
+.btn{
+    background-color: var(--blkcolor);
+    padding: 5px 20px;
+    color: var(--litcolor);
+}
+.btn:hover{
+    background-color: var(--litcolor);
+    color: var(--blkcolor);
+    border: 2px solid var(--blkcolor);
+    padding: 5px 20px;
 }
 .btn1{
     background-color: var(--altcolor);
@@ -80,4 +127,55 @@ main{
 .main-box img{
     display: block;
     margin: 0px auto;
+}
+section{
+    width: auto;
+    background-color: var(--litcolor);
+    height: fit-content;
+}
+.four{
+    width: 13em;
+    height: 22em;
+}
+.up{
+    width: auto;
+    height: 17.6em;
+}
+.down{
+    width: auto;
+    height: 4.4em;
+}
+.inner-box{
+    width: 49%;
+    height: 300px;
+}
+.three{
+    width: 30%;
+    height: 250px;
+}
+.two{
+    width: auto;
+    height: 40px;
+    border: 2px solid var(--libcolor);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.cl{
+    color: var(--blkcolor);
+}
+.f{
+    width: 19%;
+    height: 250px;
+}
+.md{
+    margin: 3px auto;
+    color: var(--litcolor);
+}
+.gr{
+    color: gray;
+    font-family: var(--jpfont);
+    font-weight: 700;
+    font-size: 0.8em;
+    justify-content: ;
 }
