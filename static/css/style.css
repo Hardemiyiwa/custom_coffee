@@ -21,7 +21,7 @@
     font-family: var(--hdfont);
     font-size: 4.1em;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 0.3125px;
 }
 .bg{
     background-color: var(--libcolor);
@@ -29,7 +29,7 @@
 p{
    font-family: var(--jpfont);
    text-align: justify;
-   margin: 20px 0px;
+   margin: 1.25em 0em;
 }
 .sub{
     font-family: var(--hdfont);
@@ -44,7 +44,7 @@ p{
     letter-spacing: 0.1em;
 }
 .px{
-    padding: 0px 100px;
+    padding: 0em 6.25em;
 }
 .df{
     display: flex;
@@ -73,25 +73,25 @@ p{
 }
 .btn{
     background-color: var(--blkcolor);
-    padding: 5px 20px;
+    padding: 0.3125em 1.25em;
     color: var(--litcolor);
 }
 .btn:hover{
     background-color: var(--litcolor);
     color: var(--blkcolor);
-    border: 2px solid var(--blkcolor);
-    padding: 5px 20px;
+    border: 0.125em solid var(--blkcolor);
+    padding: 0.3125em 1.25em;
 }
 .btn1{
     background-color: var(--altcolor);
-    padding: 5px 20px;
+    padding: 0.3125em 1.25em;
     color: var(--litcolor);
 }
 .btn1:hover{
     background: none;
     color: var(--altcolor);
     border: 2px solid var(--altcolor);
-    padding: 5px 20px;
+    padding: 0.3125em 1.25em;
 }
 /* navbar styling */
 nav{
@@ -126,7 +126,7 @@ main{
 }
 .main-box img{
     display: block;
-    margin: 0px auto;
+    margin: 0em auto;
 }
 section{
     width: auto;
@@ -147,17 +147,17 @@ section{
 }
 .inner-box{
     width: 49%;
-    height: 300px;
+    height: 18.75em;
 }
 .three{
     width: 30%;
-    height: 250px;
+    height: 15.625em;
 }
 .two{
     width: auto;
-    height: 40px;
-    border: 2px solid var(--libcolor);
-    margin-top: 10px;
+    height: 2.5em;
+    border: 0.125em solid var(--libcolor);
+    margin-top: 0.625em;
     display: flex;
     align-items: center;
 }
@@ -166,10 +166,10 @@ section{
 }
 .f{
     width: 19%;
-    height: 250px;
+    height: 15.625em;
 }
 .md{
-    margin: 3px auto;
+    margin: 0.1875em auto;
     color: var(--litcolor);
 }
 .gr{
